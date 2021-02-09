@@ -1,0 +1,21 @@
+{
+  "name": "human-capital-management-app",
+  "version": "1.0.0",
+  "description": "An Employee management tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "EricJostad"
+  },
+  "author": "Eric Jostad",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
