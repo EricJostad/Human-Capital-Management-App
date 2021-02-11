@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const inquirer = require('inquirer');
 const consoleTable = require('console.table');
 
-const app = express();
+// const app = express();
 
 // Setting up Port
 const PORT = process.env.PORT || 1170;
@@ -70,5 +70,5 @@ function firstChoice() {
   });
 }
 
-// Set up listening 
-app.listen(PORT);
+// // Set up listening 
+// app.listen(PORT);
