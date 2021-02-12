@@ -29,7 +29,7 @@ function firstChoice() {
   inquirer.prompt({
     type: 'list',
     name: 'choices',
-    message: 'Welcome to the employee tracker! What would you like to do?',
+    message: 'Welcome to the HCM app! What would you like to do?',
     choices: [
       'Add a department',
       'Add a role',
@@ -64,7 +64,7 @@ function firstChoice() {
         updateEmpRoles();
         break;
       case 'End the application':
-        console.log('The application has ended.');
+        console.log('Goodbye.');
         break;
     }
   });
