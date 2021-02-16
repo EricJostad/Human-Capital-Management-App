@@ -1,4 +1,4 @@
-USE department_DB;
+USE humancapital_DB;
 
 INSERT INTO departments (name)
 VALUES ("Engineering");

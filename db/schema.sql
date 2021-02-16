@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS departments_DB;
+DROP DATABASE IF EXISTS humancapital_DB;
 
-CREATE DATABASE department_DB;
+CREATE DATABASE humancapital_DB;
 
-USE department_DB;
+USE humancapital_DB;
 
 CREATE TABLE departments (
 	id INT NOT NULL AUTO_INCREMENT,
